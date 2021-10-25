@@ -51,11 +51,18 @@ table{
 }
 .content{
     display: flex;
+    flex-direction: row;
 }
 .down{
     display: flex;
     /* flex-direction: column; */
 }
-.video{
-    flex-direction: column;
+.right-bar{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;  
+    width: 300px;
+    background-color: #f7f7f7;
+    /* border: 1px solid #000; */
+    height: 400px; 
 }
